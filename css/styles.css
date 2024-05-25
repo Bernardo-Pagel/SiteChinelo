@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poetsen+One&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* *::selection {
+  color: black;
+  background-color: white;
+} */
+
+/* Header */
+header {
+  padding: 0% 10% 0% 10%;
+  background-image: url(/img/textura-de-papel-abstrato-header.jpg);
+}
+
+header nav {
+  padding: 1.5% 0% 1.5% 0%;
+  text-align: left;
+}
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin-right: 2.5%;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#Logo {
+  margin-right: 4%;
+  font-family: 'Seaweed Script', cursive;
+  font-size: 300%;
+  font-style: normal;
+}
+
+/* Main */
+main {
+  padding: 0% 9.5% 0% 9.5%;
+}
+
+main div {
+  padding: 2% 0% 2% 0%;
+}
+
+.mainlink p {
+  padding: 1% 0% 1% 0%;
+  color: lightgrey;
+}
+
+.mainlink span {
+  color: rgb(255, 0, 128);
+}
+
+.mainproduct {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainleft {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  margin-top: 1.5%;
+}
+
+.mainleft img {
+  max-width: 60%;
+  margin: 8% 0% 8% 0%;
+  border-radius: 6%;
+}
+
+.topimage {
+  background-color: rgb(255, 0, 128);
+  padding: 2%;
+}
+
+.bottomimage {
+  background-color: lightgrey;
+  padding: 2%;
+}
+
+.mainmid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mainmid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
+
+.mainright {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+}
+
+.mainright h1 {
+  font: bold;
+  font-size: x-large;
+  color: black;
+}
+
+.mainright h2 {
+  font-size: large;
+  color: black;
+}
+
+.mainright p {
+  color: grey;
+}
+
+.productcolors {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+
+.productcolors img {
+  max-height: 18%;
+  max-width: 18%;
+  margin: 1%;
+}
+
+.sizelist {
+  display: flex;
+  flex-direction: row;
+}
+
+.size {
+  background-color: lightgrey;
+}
+
+.sizeselected {
+  background-color: rgb(255, 0, 128);
+}
+
+.bottomtext {
+  text-align: center;
+}
+
+/* Footer */
